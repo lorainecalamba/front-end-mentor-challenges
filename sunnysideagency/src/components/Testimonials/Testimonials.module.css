@@ -1,0 +1,25 @@
+.testimonialsContainer {
+  width: 100%;
+  padding: 10rem 0;
+}
+
+.testimonialsContainer h3 {
+  text-transform: uppercase;
+  color: #acacac;
+  text-align: center;
+  padding: 0 5rem;
+  letter-spacing: 0.4rem;
+  font-size: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 10rem;
+  box-sizing: border-box;
+}
+
+.testimonials div {
+  padding: 0 2rem;
+}

@@ -1,0 +1,10 @@
+.photoCard {
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 10rem;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

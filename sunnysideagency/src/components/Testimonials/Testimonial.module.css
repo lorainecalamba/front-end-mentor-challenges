@@ -1,0 +1,32 @@
+.testimonial {
+  width: 33%;
+  text-align: center;
+}
+
+.testimonial img,
+.testimonial .testimonialBio {
+  margin-bottom: 3rem;
+}
+
+.testimonialPhoto {
+  width: 4rem;
+  border-radius: 50%;
+}
+
+.testimonialBio {
+  font-family: 'Roboto', sans-serif;
+  color: #616264;
+  font-weight: 500;
+  line-height: 1.6rem;
+}
+
+.testimonialName {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.testimonialTitle {
+  font-family: 'Roboto', sans-serif;
+  color: #adabac;
+  font-weight: 400;
+}
