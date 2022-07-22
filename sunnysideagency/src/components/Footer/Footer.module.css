@@ -20,7 +20,7 @@
 .footer ul li {
   display: inline-block;
   padding: 3rem 2rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Barlow', sans-serif;
   cursor: pointer;
 }
 .footer ul li:hover {
@@ -37,4 +37,19 @@
 .footerSocial img:hover {
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(80deg) brightness(102%)
     contrast(105%);
+}
+
+/* for small devices */
+@media (max-width: 565px) {
+  .footer ul li {
+    display: inline-block;
+    padding: 3rem 1rem;
+    font-family: 'Barlow', sans-serif;
+    cursor: pointer;
+  }
+}
+
+/* for medium devices */
+@media(max-width: 991px) {
+  
 }

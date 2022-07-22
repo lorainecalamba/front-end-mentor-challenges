@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Logo from '../../images/logo.svg';
+import HamburgerMenu from "../../images/icon-hamburger.svg";
 import classes from './navbar.module.css';
 
 const Navbar = () => {
@@ -16,6 +17,9 @@ const Navbar = () => {
           <li>Projects</li>
           <li className={classes.contact}>Contact</li>
         </ul>
+      </div>
+      <div className={classes.burgerMenu}>
+        <img src={HamburgerMenu} alt="Hamburger"/>
       </div>
     </div>
   );

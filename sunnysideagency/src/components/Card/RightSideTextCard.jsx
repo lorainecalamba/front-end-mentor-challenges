@@ -5,7 +5,7 @@ import TextCard from './TextCard';
 
 const RightSideTextCard = (props) => {
   return (
-    <Card>
+    <Card isLeftText={false}>
       <PhotoCard photo={props.photo} />
 
       <TextCard

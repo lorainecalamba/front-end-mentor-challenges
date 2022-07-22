@@ -5,7 +5,7 @@ import TextCard from './TextCard';
 
 const LeftSideTextCard = (props) => {
   return (
-    <Card>
+    <Card isLeftText={true}>
       <TextCard
         title={props.title}
         description={props.description}

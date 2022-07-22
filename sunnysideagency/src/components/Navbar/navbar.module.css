@@ -17,6 +17,8 @@
   display: inline-block;
   padding: 0 1.5rem;
   font-size: 0.85rem;
+  font-family: 'Barlow', sans-serif;
+  cursor: pointer;
 }
 
 .contact {
@@ -24,4 +26,29 @@
   border-radius: 10px;
   padding: 0.85rem !important;
   text-transform: uppercase;
+  font-family: 'Fraunces', serif !important;
+}
+
+.contact:hover {
+  background-color: #fff;
+}
+
+.burgerMenu {
+  display: none;
+}
+
+/* for small devices */
+@media (max-width: 565px) {
+  
+}
+
+/* for medium devices */
+@media (max-width: 991px) {
+  .navItems {
+    display: none;
+  }
+
+  .burgerMenu {
+    display: block;
+  }
 }

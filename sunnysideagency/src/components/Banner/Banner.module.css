@@ -1,17 +1,19 @@
 .banner {
-  width: 100%;
+  max-width: 100%;
   height: 100vh;
   background-image: url('../../images/desktop/image-header.jpg');
   background-size: cover;
   background-position: center;
+  overflow-y: hidden;
 }
 
 .bannerContents {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 160px;
+  padding-top: 10rem;
   text-transform: uppercase;
+  position: relative;
 }
 
 .bannerContents h3 {
@@ -22,7 +24,25 @@
 .bannerContents img {
   display: flex;
   justify-content: center;
-  width: 40px;
-  height: 120px;
-  margin-top: 103px;
+  height: 10rem;
+  margin-top: 6rem;
+}
+
+/* for small devices */
+@media (max-width: 565px) {
+  .bannerContents h3 {
+    text-align: center;
+  }
+  .bannerContents img {
+    height: 6rem;
+    margin-top: 2rem;
+  }
+}
+
+/* for medium devices */
+@media (max-width: 991px) {
+  .bannerContents img {
+    height: 10rem;
+    margin-top: 6rem;
+  }
 }

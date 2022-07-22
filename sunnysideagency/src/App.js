@@ -40,16 +40,20 @@ function App() {
       <Card>
         <PhotoCardWithText
           photo={CherryPhoto}
+          title="Graphic Design"
+          description="Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential client's attention."
           textColor="#27594e" />
         <PhotoCardWithText
           photo={OrangePhoto}
+          title="Photography"
+          description="Increase your credibility by getting the most stunnig, high-quality photos that improve your business image."
           textColor="#1a546c"
         />
       </Card>
 
       <Testimonials />
 
-      <div style={{ display: "flex", height: "50vh" }}>
+      <div className={classes.fullBannerPhoto}>
         <PhotoCard
           photo={BottlesPhoto}
         />

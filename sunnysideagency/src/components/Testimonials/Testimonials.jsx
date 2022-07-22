@@ -21,14 +21,14 @@ const Testimonials = () => {
         <Testimonial
           photo={ThomasPhoto}
           bio="We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit."
-          name="Emily R."
-          title="Marketing Director"
+          name="Thomas S."
+          title="Chief Operating Officer"
         />
         <Testimonial
           photo={JenniePhoto}
           bio="We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit."
-          name="Emily R."
-          title="Marketing Director"
+          name="Jennie F."
+          title="Business Owner"
         />
       </div>
     </div>

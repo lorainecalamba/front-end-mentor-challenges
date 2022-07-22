@@ -1,8 +1,12 @@
 import React from 'react';
 
+import classes from "./Card.module.css";
+
 const Card = (props) => {
+  const clasificationCard = props.isLeftText ? 'leftSideTextCard' : 'rightSideTextCard';
+
   return (
-    <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+    <div className={`${classes.card} ${clasificationCard}`} >
       {props.children}
     </div>
   );

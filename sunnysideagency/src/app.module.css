@@ -1,7 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
 
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Merriweather', serif;
+  font-family: 'Fraunces', serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.fullBannerPhoto {
+  display: flex;
+  height: auto;
+}
+
+/* for medium devices */
+@media(max-width: 991px) {
+  .fullBannerPhoto {
+    flex-direction: row;
+    flex-wrap: wrap;
+  position: relative;
+
+  } 
 }

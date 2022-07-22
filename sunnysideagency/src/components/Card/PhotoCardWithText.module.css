@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 10rem;
+  padding: 0 8rem;
   box-sizing: border-box;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,8 +20,21 @@
 
 .photoCardWithText p {
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-weight: 500;
   line-height: 1.6rem;
   font-size: 1.2rem;
+}
+
+/* for small devices */
+@media (max-width: 565px) {
+  
+}
+
+/* for medium devices */
+@media(max-width: 991px) {
+  .photoCardWithText {
+    width: 100%;
+    padding: 0 2rem;
+  }
 }

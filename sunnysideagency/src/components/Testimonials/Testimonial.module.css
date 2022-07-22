@@ -14,7 +14,7 @@
 }
 
 .testimonialBio {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Barlow', sans-serif;
   color: #616264;
   font-weight: 500;
   line-height: 1.6rem;
@@ -26,7 +26,26 @@
 }
 
 .testimonialTitle {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Barlow', sans-serif;
   color: #adabac;
   font-weight: 400;
+}
+
+/* for small devices */
+@media (max-width: 565px) {
+  .testimonial {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 4rem;
+  }
+}
+
+/* for medium devices */
+@media (min-width: 566px) and (max-width: 991px) {
+  .testimonial {
+    width: 33%;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 4rem;
+  }
 }

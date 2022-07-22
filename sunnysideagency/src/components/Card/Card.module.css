@@ -1,0 +1,18 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* for small devices */
+@media (max-width: 565px) {
+  .card {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+/* for medium devices */
+@media (min-width: 566px) and (max-width: 991px) {
+
+}
