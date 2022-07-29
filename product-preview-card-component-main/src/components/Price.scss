@@ -1,0 +1,22 @@
+.container__price {
+  display: flex;
+  justify-content: flex-start;
+  margin: 1rem 0;
+
+  &__current {
+    flex-grow: 1;
+    font-size: 2rem;
+    color: #4c7867 !important;
+    font-family: 'Fraunces', serif;
+    display: flex;
+    align-items: center;
+  }
+
+  &__previous {
+    flex-grow: 5;
+    display: flex;
+    align-items: center;
+    color: #73737b;
+    text-decoration: line-through;
+  }
+}

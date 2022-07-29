@@ -1,0 +1,26 @@
+.container__info {
+  display: flex;
+  flex-direction: column !important;
+  flex-basis: auto;
+  justify-content: center;
+
+  h3 {
+    color: #73737b;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.5rem;
+  }
+
+  h2 {
+    font-size: 2.9rem;
+    font-family: 'Fraunces', serif;
+    margin-bottom: 1.5rem;
+    line-height: 3rem;
+  }
+
+  p {
+    color: #7d7c8a;
+    line-height: 1.7rem;
+  }
+}
