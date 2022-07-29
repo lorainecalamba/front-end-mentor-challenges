@@ -1,4 +1,4 @@
-import "./app.scss";
+import "./App.scss";
 import Button from "./components/Button";
 import Info from "./components/Info";
 import Price from "./components/Price";

@@ -24,3 +24,21 @@
     line-height: 1.7rem;
   }
 }
+
+@media (max-width: 375px) {
+  .container__info {
+
+    h3 {
+      font-size: 0.65rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      line-height: 2.3rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+}

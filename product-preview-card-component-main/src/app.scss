@@ -27,10 +27,9 @@ body {
     border-radius: 10px;
     background: #fff;
 
-
-
     &__image {
       width: 50%;
+      height: 100%;
       background: url('./img/image-product-desktop.jpg');
       background-size: cover;
       background-position: center;
@@ -52,4 +51,31 @@ body {
       }
     }
   }
+}
+
+@media (max-width: 375px) {
+  .app-container {
+    .container {
+      width: 330px !important;
+      height: 750px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column !important;
+
+      &__image {
+        width: 100% !important;
+        background: url('./img/image-product-mobile.jpg');
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px 10px 0 0 !important;
+      }
+
+      &__description {
+        width: 100% !important;
+        padding: 1.8rem;
+      }
+    }
+  }
+
 }

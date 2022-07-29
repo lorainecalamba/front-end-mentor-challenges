@@ -20,3 +20,12 @@
     text-decoration: line-through;
   }
 }
+
+
+@media (max-width: 375px) {
+  .container__price {
+    &__current {
+      font-size: 2rem;
+    }
+  }
+}
