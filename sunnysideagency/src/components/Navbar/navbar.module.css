@@ -14,6 +14,9 @@
   width: 5rem;
   align-items: center;
 }
+.navItems {
+  position: relative;
+}
 .navItems ul li {
   display: inline-block;
   padding: 0 1.5rem;
@@ -46,10 +49,33 @@
 
 /* for medium devices */
 @media (max-width: 991px) {
-  .navItems {
-    display: none;
+  .navbar {
+    position: absolute;
   }
-
+  .navItems {
+    width: 100%;
+    position: relative;
+    margin-top: 25rem;
+    background: #fff;
+    padding: 2rem 5rem;
+    margin-left: -3.5rem;
+  }
+  .navItems ul li {
+    color: #7c7b89;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  .contact {
+    background-color: #fbd601;
+    color: #000 !important;
+    margin-top: 1rem;
+    border-radius: 30px;
+  }
+  .contact:hover {
+    background-color: rgba(112, 206, 255, 0.9);
+  }
   .burgerMenu {
     display: block;
   }

@@ -19,7 +19,9 @@ const Navbar = () => {
         </ul>
       </div>
       <div className={classes.burgerMenu}>
-        <img src={HamburgerMenu} alt="Hamburger"/>
+        <span>
+          <img src={HamburgerMenu} alt="Hamburger"/>
+        </span>
       </div>
     </div>
   );
