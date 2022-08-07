@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from '../Card/Card';
+import Card from '../UI/Card';
 import IntroIllustration from '../../img/illustration-1.svg';
 
 const Intro = () => {
