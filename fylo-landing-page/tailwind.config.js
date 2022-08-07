@@ -7,7 +7,10 @@ module.exports = {
     extend: {
       colors: {
         'primary': '#05013e',
+        'btn-primary': '#2f65f9',
+        'btn-primary-hover': '#6b9bff',
         'icon-hover': '#6397fc',
+        'get-started': '#575989',
       },
       fontFamily: {
         'Raleway': ['Raleway', 'sans-serif'],

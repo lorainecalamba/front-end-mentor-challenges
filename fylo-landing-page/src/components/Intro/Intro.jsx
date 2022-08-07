@@ -22,7 +22,7 @@ const Intro = () => {
             />
           </div>
           <div className="basis-1/4">
-            <button className="bg-blue-800 text-white py-2 w-full">
+            <button className="btn btn-primary w-full">
               Get Started
             </button>
           </div>
