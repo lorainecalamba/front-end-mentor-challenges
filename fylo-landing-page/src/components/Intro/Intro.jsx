@@ -18,7 +18,7 @@ const Intro = () => {
           <div className="basis-3/4	pr-4">
             <input
               type="text"
-              className="border bottom-2 border-gray-600 focus:border-none active:border-none w-full h-10"
+              className="border bottom-2 border-gray-600 focus:border-none active:border-none w-full h-10 p-3"
             />
           </div>
           <div className="basis-1/4">
