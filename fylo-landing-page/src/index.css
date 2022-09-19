@@ -6,12 +6,16 @@
 
 @layer components {
   .btn {
-    @apply py-2 px-10 w-60
+    @apply py-2 px-10 w-60;
   }
-  .btn-primary{
-    @apply text-white bg-btn-primary font-semibold
+  .btn-primary {
+    @apply text-white bg-btn-primary font-semibold;
   }
   .btn-primary:hover {
-    @apply bg-btn-primary-hover
+    @apply bg-btn-primary-hover;
+  }
+
+  .primary-header {
+    @apply text-4xl text-primary font-Raleway font-bold mb-7;
   }
 }
