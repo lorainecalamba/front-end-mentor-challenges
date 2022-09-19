@@ -11,6 +11,7 @@ module.exports = {
         'btn-primary-hover': '#6b9bff',
         'icon-hover': '#6397fc',
         'get-started': '#575989',
+        'productivity': '#f9f8fe',
       },
       fontFamily: {
         'Raleway': ['Raleway', 'sans-serif'],

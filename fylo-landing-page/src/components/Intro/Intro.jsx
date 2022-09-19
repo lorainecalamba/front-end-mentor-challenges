@@ -6,7 +6,7 @@ const Intro = () => {
   return (
     <Card className="h-auto mt-10 items-center box-border">
       <div className="basis-1/2 mr-14">
-        <h4 className="text-4xl text-primary font-Raleway font-bold mb-7">
+        <h4 className="primary-header">
           All your files in one secure location, accesible anywhere.
         </h4>
         <p className="text-primary text-lg leading-6 font-OpenSans">
@@ -22,14 +22,12 @@ const Intro = () => {
             />
           </div>
           <div className="basis-1/4">
-            <button className="btn btn-primary w-full">
-              Get Started
-            </button>
+            <button className="btn btn-primary w-full">Get Started</button>
           </div>
         </div>
       </div>
-      <div className="basis-1/2 text-center">
-        <img src={IntroIllustration} alt="Intro" className="w-full" />
+      <div className="basis-1/2 flex justify-center">
+        <img src={IntroIllustration} alt="Intro" className="w-3/4" />
       </div>
     </Card>
   );
